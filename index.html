@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#050006" />
+  <meta name="description" content="Regalo interactivo de cumpleaños para mamá" />
+  <title>Feliz cumpleaños mamá</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <canvas id="heartCanvas" aria-label="Corazón animado interactivo"></canvas>
+    <canvas id="effectsCanvas" aria-hidden="true"></canvas>
+
+    <section class="intro" id="intro">
+      <p>Gira el corazón con tu dedo</p>
+      <span>Dale 3 vueltas ✨</span>
+    </section>
+
+    <section class="final-message" id="finalMessage" aria-live="polite">
+      <h1>Feliz cumpleaños mamá</h1>
+      <p>Te amo mucho!!!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
